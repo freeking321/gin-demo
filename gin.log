@@ -1,0 +1,36 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> main.main.func2 (4 handlers)
+[GIN-debug] GET    /demo1.png                --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (4 handlers)
+[GIN-debug] HEAD   /demo1.png                --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (4 handlers)
+[GIN-debug] GET    /someGet                  --> main.main.func3 (4 handlers)
+[GIN-debug] POST   /somePost                 --> main.main.func4 (4 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func5 (4 handlers)
+[GIN-debug] POST   /v1/login                 --> main.main.func6 (4 handlers)
+[GIN-debug] POST   /v1/submit                --> main.main.func7 (4 handlers)
+[GIN-debug] POST   /login/json               --> main.main.func8 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8300
+[GIN] 2023/03/14 - 16:15:38 | 200 |     521.833µs |       127.0.0.1 | POST     "/login/json"
+127.0.0.1 - [Tue, 14 Mar 2023 16:15:38 CST] "POST /login/json HTTP/1.1 200 908.666µs "PostmanRuntime-ApipostRuntime/1.1.0" "
+[GIN] 2023/03/14 - 16:15:38 | 200 |         942µs |       127.0.0.1 | POST     "/login/json"
+[GIN] 2023/03/14 - 16:26:34 | 200 |    1.045667ms |       127.0.0.1 | POST     "/login/json"
+127.0.0.1 - [Tue, 14 Mar 2023 16:26:34 CST] "POST /login/json HTTP/1.1 200 2.168167ms "PostmanRuntime-ApipostRuntime/1.1.0" "
+[GIN] 2023/03/14 - 16:26:34 | 200 |    2.219208ms |       127.0.0.1 | POST     "/login/json"
+[GIN] 2023/03/14 - 16:26:36 | 200 |      57.458µs |       127.0.0.1 | POST     "/login/json"
+127.0.0.1 - [Tue, 14 Mar 2023 16:26:36 CST] "POST /login/json HTTP/1.1 200 169.791µs "PostmanRuntime-ApipostRuntime/1.1.0" "
+[GIN] 2023/03/14 - 16:26:36 | 200 |     206.542µs |       127.0.0.1 | POST     "/login/json"
+[GIN] 2023/03/14 - 16:26:36 | 200 |     106.708µs |       127.0.0.1 | POST     "/login/json"
+127.0.0.1 - [Tue, 14 Mar 2023 16:26:36 CST] "POST /login/json HTTP/1.1 200 260.958µs "PostmanRuntime-ApipostRuntime/1.1.0" "
+[GIN] 2023/03/14 - 16:26:36 | 200 |     303.959µs |       127.0.0.1 | POST     "/login/json"
+[GIN] 2023/03/14 - 16:26:37 | 200 |      36.292µs |       127.0.0.1 | POST     "/login/json"
+127.0.0.1 - [Tue, 14 Mar 2023 16:26:37 CST] "POST /login/json HTTP/1.1 200 100.333µs "PostmanRuntime-ApipostRuntime/1.1.0" "
+[GIN] 2023/03/14 - 16:26:37 | 200 |     122.875µs |       127.0.0.1 | POST     "/login/json"
+[GIN] 2023/03/14 - 16:26:37 | 200 |     136.584µs |       127.0.0.1 | POST     "/login/json"
+127.0.0.1 - [Tue, 14 Mar 2023 16:26:37 CST] "POST /login/json HTTP/1.1 200 215.333µs "PostmanRuntime-ApipostRuntime/1.1.0" "
+[GIN] 2023/03/14 - 16:26:37 | 200 |     238.208µs |       127.0.0.1 | POST     "/login/json"
